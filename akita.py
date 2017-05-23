@@ -174,7 +174,7 @@ class akita:
             print "Firing action for " + job['ip'] + ' : ' + fire
             os.system(fire + ' > /dev/null 2>&1 &')
         else:
-            print "Not firing " + ex + ' - file does not exit'
+            print "Not firing " + ex + ' - file does not exist'
 
 ak = akita()
 ak.main()
